@@ -1,0 +1,7 @@
+#Request input of amount of Hours & Rate per Hour
+#Read strings as float() & print the total pay
+
+hrs = input("Enter Hours:")
+rph = input("Enter Rate:")
+ttp = float(hrs) * float(rph)
+print('Pay:' , ttp)
