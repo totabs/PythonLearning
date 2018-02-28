@@ -1,9 +1,15 @@
+#print "Enter Hours:" & convert input hrs to float
 hrs = input("Enter Hours:")
 h = float(hrs)
+
+#print "Enter Hourly Rate:" & convert input rph into float
 rph = input("Enter Hourly Rate:")
 r = float(rph)
+
+#print gross pay for regular rate per hour
 if h <= 40:
     print (h*r)
-    
+
+#print gross pay and pay any extra hour for 1.5x the regular rate    
 elif h > 40:
     print(40*r+(h-40)*(1.5*r))
